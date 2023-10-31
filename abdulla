@@ -1,3 +1,13 @@
-git log # Сначала убедитесь, что вы хотите удалить последние три коммита
+git log
 git reset --hard HEAD~3
 git push origin HEAD --force
+
+git add Задача_2.txt
+git commit -m
+git push origin main
+
+touch .gitignore
+folder_to_ignore/2.txt
+git add .gitignore
+git commit -m
+git push origin main
